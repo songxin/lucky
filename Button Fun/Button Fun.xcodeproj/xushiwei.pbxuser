@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Button_FunAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {573, 286}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 405}";
+			sepNavWindowFrame = "{{15, 76}, {1262, 697}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Button_FunAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1157}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 324}";
+			sepNavWindowFrame = "{{15, 76}, {1262, 697}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Button Fun */ = {
+		activeExec = 0;
+		executables = (
+			B392F9A113A21A1000ABA14D /* Button Fun */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* Button_FunViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {573, 247}}";
+			sepNavSelRange = "{150, 0}";
+			sepNavVisRange = "{0, 362}";
+			sepNavWindowFrame = "{{598, 70}, {682, 708}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Button_FunViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 559}}";
+			sepNavSelRange = "{820, 0}";
+			sepNavVisRange = "{3, 761}";
+			sepNavWindowFrame = "{{15, 65}, {678, 708}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B392F9A113A21A1000ABA14D /* Button Fun */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Button Fun */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Button Fun */,
+		);
+		codeSenseManager = B392F9AD13A21A1500ABA14D /* Code sense */;
+		executables = (
+			B392F9A113A21A1000ABA14D /* Button Fun */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					795,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329413217;
+			PBXWorkspaceStateSaveDate = 329413217;
+		};
+		perUserProjectItems = {
+			B392F9DE13A26ABD00ABA14D /* PBXTextBookmark */ = B392F9DE13A26ABD00ABA14D /* PBXTextBookmark */;
+			B392F9DF13A26ABD00ABA14D /* PBXTextBookmark */ = B392F9DF13A26ABD00ABA14D /* PBXTextBookmark */;
+			B392F9E013A26ABD00ABA14D /* PBXBookmark */ = B392F9E013A26ABD00ABA14D /* PBXBookmark */;
+			B392F9E113A26ABD00ABA14D /* PlistBookmark */ = B392F9E113A26ABD00ABA14D /* PlistBookmark */;
+			B392F9E213A26ABD00ABA14D /* PBXTextBookmark */ = B392F9E213A26ABD00ABA14D /* PBXTextBookmark */;
+			B392F9E413A26ABD00ABA14D /* PBXTextBookmark */ = B392F9E413A26ABD00ABA14D /* PBXTextBookmark */;
+			B392F9FA13A2726800ABA14D /* PBXTextBookmark */ = B392F9FA13A2726800ABA14D /* PBXTextBookmark */;
+		};
+		sourceControlManager = B392F9AC13A21A1500ABA14D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Button_Fun-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 76}, {1262, 697}}";
+		};
+	};
+	B392F9A113A21A1000ABA14D /* Button Fun */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Button Fun";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B392F9AC13A21A1500ABA14D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B392F9AD13A21A1500ABA14D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B392F9DE13A26ABD00ABA14D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Button_FunAppDelegate.h */;
+		name = "Button_FunAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 405;
+		vrLoc = 0;
+	};
+	B392F9DF13A26ABD00ABA14D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Button_FunAppDelegate.m */;
+		name = "Button_FunAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	B392F9E013A26ABD00ABA14D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B392F9BD13A238E700ABA14D /* Button.png */;
+	};
+	B392F9E113A26ABD00ABA14D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Button_Fun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/xushiwei/Documents/lucky/Button Fun/Button_Fun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	B392F9E213A26ABD00ABA14D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Button_FunViewController.h */;
+		name = "Button_FunViewController.h: 8";
+		rLen = 0;
+		rLoc = 150;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 0;
+	};
+	B392F9E413A26ABD00ABA14D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Button_FunViewController.m */;
+		name = "Button_FunViewController.m: 35";
+		rLen = 0;
+		rLoc = 820;
+		rType = 0;
+		vrLen = 760;
+		vrLoc = 34;
+	};
+	B392F9FA13A2726800ABA14D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Button_FunViewController.m */;
+		name = "Button_FunViewController.m: 35";
+		rLen = 0;
+		rLoc = 820;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 3;
+	};
+}
