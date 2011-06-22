@@ -277,7 +277,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {224, 609}}</string>
+							<string>{{0, 0}, {224, 605}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -289,14 +289,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {241, 627}}</string>
+						<string>{{0, 0}, {241, 623}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>224</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 110 1280 668 0 0 1280 778 </string>
+						<string>0 114 1280 664 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -324,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B392F9FA13A2726800ABA14D</string>
+										<string>B35EEBD613B02FC6008001DA</string>
 										<key>history</key>
 										<array>
 											<string>B392F9DE13A26ABD00ABA14D</string>
@@ -332,7 +332,7 @@
 											<string>B392F9E013A26ABD00ABA14D</string>
 											<string>B392F9E113A26ABD00ABA14D</string>
 											<string>B392F9E213A26ABD00ABA14D</string>
-											<string>B392F9E413A26ABD00ABA14D</string>
+											<string>B35EEBCF13B02FBA008001DA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,14 +344,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1034, 434}}</string>
+								<string>{{0, 0}, {1034, 425}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 110 1280 668 0 0 1280 778 </string>
+								<string>0 114 1280 664 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>434pt</string>
+							<string>425pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
@@ -366,14 +366,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 439}, {1034, 188}}</string>
+								<string>{{0, 430}, {1034, 193}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 110 1280 668 0 0 1280 778 </string>
+								<string>0 114 1280 664 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>188pt</string>
+							<string>193pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -392,9 +392,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B392F9F013A2726400ABA14D</string>
+				<string>B35EEBD713B02FC6008001DA</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B392F9F113A2726400ABA14D</string>
+				<string>B35EEBD813B02FC6008001DA</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -532,13 +532,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B392F9AA13A21A1500ABA14D</string>
 		<string>/Users/xushiwei/Documents/lucky/Button Fun/Button Fun.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 110 1280 668 0 0 1280 778 </string>
+	<string>0 114 1280 664 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -615,7 +613,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B392F9AA13A21A1500ABA14D</string>
-				<string>B392F9F213A2726400ABA14D</string>
+				<string>B35EEBD913B02FC6008001DA</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
