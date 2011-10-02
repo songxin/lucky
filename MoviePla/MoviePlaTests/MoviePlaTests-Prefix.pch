@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'MoviePlaTests' target in the 'MoviePlaTests' project
-//
-
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-#endif
