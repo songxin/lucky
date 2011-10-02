@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3EA406B14127A0E0002DE17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA406A14127A0E0002DE17 /* UIKit.framework */; };
+		B3EA406D14127A0E0002DE17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA406C14127A0E0002DE17 /* Foundation.framework */; };
+		B3EA406F14127A0E0002DE17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA406E14127A0E0002DE17 /* CoreGraphics.framework */; };
+		B3EA407514127A0E0002DE17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3EA407314127A0E0002DE17 /* InfoPlist.strings */; };
+		B3EA407814127A0E0002DE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA407714127A0E0002DE17 /* main.m */; };
+		B3EA407B14127A0E0002DE17 /* PlayMovieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA407A14127A0E0002DE17 /* PlayMovieAppDelegate.m */; };
+		B3EA407E14127A0E0002DE17 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EA407C14127A0E0002DE17 /* MainWindow.xib */; };
+		B3EA408114127A0E0002DE17 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA408014127A0E0002DE17 /* FirstViewController.m */; };
+		B3EA408414127A0E0002DE17 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA408314127A0E0002DE17 /* SecondViewController.m */; };
+		B3EA408714127A0E0002DE17 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EA408514127A0E0002DE17 /* FirstView.xib */; };
+		B3EA408A14127A0E0002DE17 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EA408814127A0E0002DE17 /* SecondView.xib */; };
+		B3EA409114127A0E0002DE17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA406A14127A0E0002DE17 /* UIKit.framework */; };
+		B3EA409214127A0E0002DE17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA406C14127A0E0002DE17 /* Foundation.framework */; };
+		B3EA409314127A0E0002DE17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA406E14127A0E0002DE17 /* CoreGraphics.framework */; };
+		B3EA409B14127A0E0002DE17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3EA409914127A0E0002DE17 /* InfoPlist.strings */; };
+		B3EA409E14127A0E0002DE17 /* PlayMovieTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3EA409D14127A0E0002DE17 /* PlayMovieTests.h */; };
+		B3EA40A014127A0E0002DE17 /* PlayMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA409F14127A0E0002DE17 /* PlayMovieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3EA409414127A0E0002DE17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EA405D14127A0D0002DE17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EA406514127A0E0002DE17;
+			remoteInfo = PlayMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3EA406614127A0E0002DE17 /* PlayMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EA406A14127A0E0002DE17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3EA406C14127A0E0002DE17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3EA406E14127A0E0002DE17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3EA407214127A0E0002DE17 /* PlayMovie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayMovie-Info.plist"; sourceTree = "<group>"; };
+		B3EA407414127A0E0002DE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3EA407614127A0E0002DE17 /* PlayMovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayMovie-Prefix.pch"; sourceTree = "<group>"; };
+		B3EA407714127A0E0002DE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3EA407914127A0E0002DE17 /* PlayMovieAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayMovieAppDelegate.h; sourceTree = "<group>"; };
+		B3EA407A14127A0E0002DE17 /* PlayMovieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMovieAppDelegate.m; sourceTree = "<group>"; };
+		B3EA407D14127A0E0002DE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B3EA407F14127A0E0002DE17 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B3EA408014127A0E0002DE17 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B3EA408214127A0E0002DE17 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B3EA408314127A0E0002DE17 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B3EA408614127A0E0002DE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		B3EA408914127A0E0002DE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		B3EA409014127A0E0002DE17 /* PlayMovieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMovieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EA409814127A0E0002DE17 /* PlayMovieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayMovieTests-Info.plist"; sourceTree = "<group>"; };
+		B3EA409A14127A0E0002DE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3EA409C14127A0E0002DE17 /* PlayMovieTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayMovieTests-Prefix.pch"; sourceTree = "<group>"; };
+		B3EA409D14127A0E0002DE17 /* PlayMovieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayMovieTests.h; sourceTree = "<group>"; };
+		B3EA409F14127A0E0002DE17 /* PlayMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMovieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3EA406314127A0E0002DE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA406B14127A0E0002DE17 /* UIKit.framework in Frameworks */,
+				B3EA406D14127A0E0002DE17 /* Foundation.framework in Frameworks */,
+				B3EA406F14127A0E0002DE17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA408C14127A0E0002DE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA409114127A0E0002DE17 /* UIKit.framework in Frameworks */,
+				B3EA409214127A0E0002DE17 /* Foundation.framework in Frameworks */,
+				B3EA409314127A0E0002DE17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3EA405B14127A0D0002DE17 = {
+			isa = PBXGroup;
+			children = (
+				B3EA407014127A0E0002DE17 /* PlayMovie */,
+				B3EA409614127A0E0002DE17 /* PlayMovieTests */,
+				B3EA406914127A0E0002DE17 /* Frameworks */,
+				B3EA406714127A0E0002DE17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3EA406714127A0E0002DE17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA406614127A0E0002DE17 /* PlayMovie.app */,
+				B3EA409014127A0E0002DE17 /* PlayMovieTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3EA406914127A0E0002DE17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA406A14127A0E0002DE17 /* UIKit.framework */,
+				B3EA406C14127A0E0002DE17 /* Foundation.framework */,
+				B3EA406E14127A0E0002DE17 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3EA407014127A0E0002DE17 /* PlayMovie */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA407914127A0E0002DE17 /* PlayMovieAppDelegate.h */,
+				B3EA407A14127A0E0002DE17 /* PlayMovieAppDelegate.m */,
+				B3EA407C14127A0E0002DE17 /* MainWindow.xib */,
+				B3EA407F14127A0E0002DE17 /* FirstViewController.h */,
+				B3EA408014127A0E0002DE17 /* FirstViewController.m */,
+				B3EA408214127A0E0002DE17 /* SecondViewController.h */,
+				B3EA408314127A0E0002DE17 /* SecondViewController.m */,
+				B3EA408514127A0E0002DE17 /* FirstView.xib */,
+				B3EA408814127A0E0002DE17 /* SecondView.xib */,
+				B3EA407114127A0E0002DE17 /* Supporting Files */,
+			);
+			path = PlayMovie;
+			sourceTree = "<group>";
+		};
+		B3EA407114127A0E0002DE17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA407214127A0E0002DE17 /* PlayMovie-Info.plist */,
+				B3EA407314127A0E0002DE17 /* InfoPlist.strings */,
+				B3EA407614127A0E0002DE17 /* PlayMovie-Prefix.pch */,
+				B3EA407714127A0E0002DE17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3EA409614127A0E0002DE17 /* PlayMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA409D14127A0E0002DE17 /* PlayMovieTests.h */,
+				B3EA409F14127A0E0002DE17 /* PlayMovieTests.m */,
+				B3EA409714127A0E0002DE17 /* Supporting Files */,
+			);
+			path = PlayMovieTests;
+			sourceTree = "<group>";
+		};
+		B3EA409714127A0E0002DE17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA409814127A0E0002DE17 /* PlayMovieTests-Info.plist */,
+				B3EA409914127A0E0002DE17 /* InfoPlist.strings */,
+				B3EA409C14127A0E0002DE17 /* PlayMovieTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3EA406514127A0E0002DE17 /* PlayMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EA40A314127A0E0002DE17 /* Build configuration list for PBXNativeTarget "PlayMovie" */;
+			buildPhases = (
+				B3EA406214127A0E0002DE17 /* Sources */,
+				B3EA406314127A0E0002DE17 /* Frameworks */,
+				B3EA406414127A0E0002DE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayMovie;
+			productName = PlayMovie;
+			productReference = B3EA406614127A0E0002DE17 /* PlayMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3EA408F14127A0E0002DE17 /* PlayMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EA40A614127A0E0002DE17 /* Build configuration list for PBXNativeTarget "PlayMovieTests" */;
+			buildPhases = (
+				B3EA408B14127A0E0002DE17 /* Sources */,
+				B3EA408C14127A0E0002DE17 /* Frameworks */,
+				B3EA408D14127A0E0002DE17 /* Resources */,
+				B3EA408E14127A0E0002DE17 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3EA409514127A0E0002DE17 /* PBXTargetDependency */,
+			);
+			name = PlayMovieTests;
+			productName = PlayMovieTests;
+			productReference = B3EA409014127A0E0002DE17 /* PlayMovieTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3EA405D14127A0D0002DE17 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B3EA406014127A0D0002DE17 /* Build configuration list for PBXProject "PlayMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3EA405B14127A0D0002DE17;
+			productRefGroup = B3EA406714127A0E0002DE17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3EA406514127A0E0002DE17 /* PlayMovie */,
+				B3EA408F14127A0E0002DE17 /* PlayMovieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3EA406414127A0E0002DE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA407514127A0E0002DE17 /* InfoPlist.strings in Resources */,
+				B3EA407E14127A0E0002DE17 /* MainWindow.xib in Resources */,
+				B3EA408714127A0E0002DE17 /* FirstView.xib in Resources */,
+				B3EA408A14127A0E0002DE17 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA408D14127A0E0002DE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA409B14127A0E0002DE17 /* InfoPlist.strings in Resources */,
+				B3EA409E14127A0E0002DE17 /* PlayMovieTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3EA408E14127A0E0002DE17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3EA406214127A0E0002DE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA407814127A0E0002DE17 /* main.m in Sources */,
+				B3EA407B14127A0E0002DE17 /* PlayMovieAppDelegate.m in Sources */,
+				B3EA408114127A0E0002DE17 /* FirstViewController.m in Sources */,
+				B3EA408414127A0E0002DE17 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA408B14127A0E0002DE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA40A014127A0E0002DE17 /* PlayMovieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3EA409514127A0E0002DE17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3EA406514127A0E0002DE17 /* PlayMovie */;
+			targetProxy = B3EA409414127A0E0002DE17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3EA407314127A0E0002DE17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA407414127A0E0002DE17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3EA407C14127A0E0002DE17 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA407D14127A0E0002DE17 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B3EA408514127A0E0002DE17 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA408614127A0E0002DE17 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		B3EA408814127A0E0002DE17 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA408914127A0E0002DE17 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		B3EA409914127A0E0002DE17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA409A14127A0E0002DE17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3EA40A114127A0E0002DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3EA40A214127A0E0002DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B3EA40A414127A0E0002DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayMovie/PlayMovie-Prefix.pch";
+				INFOPLIST_FILE = "PlayMovie/PlayMovie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3EA40A514127A0E0002DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayMovie/PlayMovie-Prefix.pch";
+				INFOPLIST_FILE = "PlayMovie/PlayMovie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3EA40A714127A0E0002DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayMovie.app/PlayMovie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayMovieTests/PlayMovieTests-Prefix.pch";
+				INFOPLIST_FILE = "PlayMovieTests/PlayMovieTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3EA40A814127A0E0002DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayMovie.app/PlayMovie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayMovieTests/PlayMovieTests-Prefix.pch";
+				INFOPLIST_FILE = "PlayMovieTests/PlayMovieTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3EA406014127A0D0002DE17 /* Build configuration list for PBXProject "PlayMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA40A114127A0E0002DE17 /* Debug */,
+				B3EA40A214127A0E0002DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EA40A314127A0E0002DE17 /* Build configuration list for PBXNativeTarget "PlayMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA40A414127A0E0002DE17 /* Debug */,
+				B3EA40A514127A0E0002DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3EA40A614127A0E0002DE17 /* Build configuration list for PBXNativeTarget "PlayMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA40A714127A0E0002DE17 /* Debug */,
+				B3EA40A814127A0E0002DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3EA405D14127A0D0002DE17 /* Project object */;
+}

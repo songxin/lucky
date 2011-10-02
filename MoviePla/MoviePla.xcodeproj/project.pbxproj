@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3EA40E0141C32290002DE17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA40DF141C32290002DE17 /* UIKit.framework */; };
+		B3EA40E2141C32290002DE17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA40E1141C32290002DE17 /* Foundation.framework */; };
+		B3EA40E4141C32290002DE17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA40E3141C32290002DE17 /* CoreGraphics.framework */; };
+		B3EA40EA141C32290002DE17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3EA40E8141C32290002DE17 /* InfoPlist.strings */; };
+		B3EA40ED141C32290002DE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA40EC141C32290002DE17 /* main.m */; };
+		B3EA40F0141C32290002DE17 /* MoviePlaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA40EF141C32290002DE17 /* MoviePlaAppDelegate.m */; };
+		B3EA40F3141C32290002DE17 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EA40F1141C32290002DE17 /* MainWindow.xib */; };
+		B3EA40F6141C32290002DE17 /* MoviePlaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA40F5141C32290002DE17 /* MoviePlaViewController.m */; };
+		B3EA4100141C322A0002DE17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA40DF141C32290002DE17 /* UIKit.framework */; };
+		B3EA4101141C322A0002DE17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA40E1141C32290002DE17 /* Foundation.framework */; };
+		B3EA4102141C322A0002DE17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA40E3141C32290002DE17 /* CoreGraphics.framework */; };
+		B3EA410A141C322A0002DE17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3EA4108141C322A0002DE17 /* InfoPlist.strings */; };
+		B3EA410D141C322A0002DE17 /* MoviePlaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3EA410C141C322A0002DE17 /* MoviePlaTests.h */; };
+		B3EA410F141C322A0002DE17 /* MoviePlaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA410E141C322A0002DE17 /* MoviePlaTests.m */; };
+		B3EA4134141E58150002DE17 /* Movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = B3EA4133141E58150002DE17 /* Movie.m4v */; };
+		B3EA4144141E5FB20002DE17 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA4143141E5FB20002DE17 /* MediaPlayer.framework */; };
+		B3EA4148141E68810002DE17 /* MoviePlaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EA4147141E68810002DE17 /* MoviePlaViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3EA4103141C322A0002DE17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EA40D2141C32280002DE17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EA40DA141C32290002DE17;
+			remoteInfo = MoviePla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3EA40DB141C32290002DE17 /* MoviePla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviePla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EA40DF141C32290002DE17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3EA40E1141C32290002DE17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3EA40E3141C32290002DE17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3EA40E7141C32290002DE17 /* MoviePla-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviePla-Info.plist"; sourceTree = "<group>"; };
+		B3EA40E9141C32290002DE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3EA40EB141C32290002DE17 /* MoviePla-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoviePla-Prefix.pch"; sourceTree = "<group>"; };
+		B3EA40EC141C32290002DE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3EA40EE141C32290002DE17 /* MoviePlaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlaAppDelegate.h; sourceTree = "<group>"; };
+		B3EA40EF141C32290002DE17 /* MoviePlaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlaAppDelegate.m; sourceTree = "<group>"; };
+		B3EA40F2141C32290002DE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B3EA40F4141C32290002DE17 /* MoviePlaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlaViewController.h; sourceTree = "<group>"; };
+		B3EA40F5141C32290002DE17 /* MoviePlaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlaViewController.m; sourceTree = "<group>"; };
+		B3EA40FF141C322A0002DE17 /* MoviePlaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EA4107141C322A0002DE17 /* MoviePlaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviePlaTests-Info.plist"; sourceTree = "<group>"; };
+		B3EA4109141C322A0002DE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3EA410B141C322A0002DE17 /* MoviePlaTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoviePlaTests-Prefix.pch"; sourceTree = "<group>"; };
+		B3EA410C141C322A0002DE17 /* MoviePlaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlaTests.h; sourceTree = "<group>"; };
+		B3EA410E141C322A0002DE17 /* MoviePlaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlaTests.m; sourceTree = "<group>"; };
+		B3EA4133141E58150002DE17 /* Movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Movie.m4v; sourceTree = "<group>"; };
+		B3EA4143141E5FB20002DE17 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B3EA4147141E68810002DE17 /* MoviePlaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviePlaViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3EA40D8141C32290002DE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA4144141E5FB20002DE17 /* MediaPlayer.framework in Frameworks */,
+				B3EA40E0141C32290002DE17 /* UIKit.framework in Frameworks */,
+				B3EA40E2141C32290002DE17 /* Foundation.framework in Frameworks */,
+				B3EA40E4141C32290002DE17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA40FB141C322A0002DE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA4100141C322A0002DE17 /* UIKit.framework in Frameworks */,
+				B3EA4101141C322A0002DE17 /* Foundation.framework in Frameworks */,
+				B3EA4102141C322A0002DE17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3EA40D0141C32280002DE17 = {
+			isa = PBXGroup;
+			children = (
+				B3EA40E5141C32290002DE17 /* MoviePla */,
+				B3EA4105141C322A0002DE17 /* MoviePlaTests */,
+				B3EA4118141C32600002DE17 /* Resources */,
+				B3EA40DE141C32290002DE17 /* Frameworks */,
+				B3EA40DC141C32290002DE17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3EA40DC141C32290002DE17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA40DB141C32290002DE17 /* MoviePla.app */,
+				B3EA40FF141C322A0002DE17 /* MoviePlaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3EA40DE141C32290002DE17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA4143141E5FB20002DE17 /* MediaPlayer.framework */,
+				B3EA40DF141C32290002DE17 /* UIKit.framework */,
+				B3EA40E1141C32290002DE17 /* Foundation.framework */,
+				B3EA40E3141C32290002DE17 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3EA40E5141C32290002DE17 /* MoviePla */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA40EE141C32290002DE17 /* MoviePlaAppDelegate.h */,
+				B3EA40EF141C32290002DE17 /* MoviePlaAppDelegate.m */,
+				B3EA40F4141C32290002DE17 /* MoviePlaViewController.h */,
+				B3EA40F5141C32290002DE17 /* MoviePlaViewController.m */,
+				B3EA40E6141C32290002DE17 /* Supporting Files */,
+			);
+			path = MoviePla;
+			sourceTree = "<group>";
+		};
+		B3EA40E6141C32290002DE17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA40E7141C32290002DE17 /* MoviePla-Info.plist */,
+				B3EA40E8141C32290002DE17 /* InfoPlist.strings */,
+				B3EA40EB141C32290002DE17 /* MoviePla-Prefix.pch */,
+				B3EA40EC141C32290002DE17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3EA4105141C322A0002DE17 /* MoviePlaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA410C141C322A0002DE17 /* MoviePlaTests.h */,
+				B3EA410E141C322A0002DE17 /* MoviePlaTests.m */,
+				B3EA4106141C322A0002DE17 /* Supporting Files */,
+			);
+			path = MoviePlaTests;
+			sourceTree = "<group>";
+		};
+		B3EA4106141C322A0002DE17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA4107141C322A0002DE17 /* MoviePlaTests-Info.plist */,
+				B3EA4108141C322A0002DE17 /* InfoPlist.strings */,
+				B3EA410B141C322A0002DE17 /* MoviePlaTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3EA4118141C32600002DE17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA4133141E58150002DE17 /* Movie.m4v */,
+				B3EA40F1141C32290002DE17 /* MainWindow.xib */,
+				B3EA4147141E68810002DE17 /* MoviePlaViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3EA40DA141C32290002DE17 /* MoviePla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EA4112141C322A0002DE17 /* Build configuration list for PBXNativeTarget "MoviePla" */;
+			buildPhases = (
+				B3EA40D7141C32290002DE17 /* Sources */,
+				B3EA40D8141C32290002DE17 /* Frameworks */,
+				B3EA40D9141C32290002DE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoviePla;
+			productName = MoviePla;
+			productReference = B3EA40DB141C32290002DE17 /* MoviePla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3EA40FE141C322A0002DE17 /* MoviePlaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EA4115141C322A0002DE17 /* Build configuration list for PBXNativeTarget "MoviePlaTests" */;
+			buildPhases = (
+				B3EA40FA141C322A0002DE17 /* Sources */,
+				B3EA40FB141C322A0002DE17 /* Frameworks */,
+				B3EA40FC141C322A0002DE17 /* Resources */,
+				B3EA40FD141C322A0002DE17 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3EA4104141C322A0002DE17 /* PBXTargetDependency */,
+			);
+			name = MoviePlaTests;
+			productName = MoviePlaTests;
+			productReference = B3EA40FF141C322A0002DE17 /* MoviePlaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3EA40D2141C32280002DE17 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B3EA40D5141C32280002DE17 /* Build configuration list for PBXProject "MoviePla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3EA40D0141C32280002DE17;
+			productRefGroup = B3EA40DC141C32290002DE17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3EA40DA141C32290002DE17 /* MoviePla */,
+				B3EA40FE141C322A0002DE17 /* MoviePlaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3EA40D9141C32290002DE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA40EA141C32290002DE17 /* InfoPlist.strings in Resources */,
+				B3EA40F3141C32290002DE17 /* MainWindow.xib in Resources */,
+				B3EA4134141E58150002DE17 /* Movie.m4v in Resources */,
+				B3EA4148141E68810002DE17 /* MoviePlaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA40FC141C322A0002DE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA410A141C322A0002DE17 /* InfoPlist.strings in Resources */,
+				B3EA410D141C322A0002DE17 /* MoviePlaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3EA40FD141C322A0002DE17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3EA40D7141C32290002DE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA40ED141C32290002DE17 /* main.m in Sources */,
+				B3EA40F0141C32290002DE17 /* MoviePlaAppDelegate.m in Sources */,
+				B3EA40F6141C32290002DE17 /* MoviePlaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA40FA141C322A0002DE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA410F141C322A0002DE17 /* MoviePlaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3EA4104141C322A0002DE17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3EA40DA141C32290002DE17 /* MoviePla */;
+			targetProxy = B3EA4103141C322A0002DE17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3EA40E8141C32290002DE17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA40E9141C32290002DE17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3EA40F1141C32290002DE17 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA40F2141C32290002DE17 /* en */,
+			);
+			name = MainWindow.xib;
+			path = MoviePla;
+			sourceTree = "<group>";
+		};
+		B3EA4108141C322A0002DE17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA4109141C322A0002DE17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3EA4110141C322A0002DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3EA4111141C322A0002DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B3EA4113141C322A0002DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoviePla/MoviePla-Prefix.pch";
+				INFOPLIST_FILE = "MoviePla/MoviePla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3EA4114141C322A0002DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoviePla/MoviePla-Prefix.pch";
+				INFOPLIST_FILE = "MoviePla/MoviePla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3EA4116141C322A0002DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoviePla.app/MoviePla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoviePlaTests/MoviePlaTests-Prefix.pch";
+				INFOPLIST_FILE = "MoviePlaTests/MoviePlaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3EA4117141C322A0002DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoviePla.app/MoviePla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoviePlaTests/MoviePlaTests-Prefix.pch";
+				INFOPLIST_FILE = "MoviePlaTests/MoviePlaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3EA40D5141C32280002DE17 /* Build configuration list for PBXProject "MoviePla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA4110141C322A0002DE17 /* Debug */,
+				B3EA4111141C322A0002DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EA4112141C322A0002DE17 /* Build configuration list for PBXNativeTarget "MoviePla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA4113141C322A0002DE17 /* Debug */,
+				B3EA4114141C322A0002DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EA4115141C322A0002DE17 /* Build configuration list for PBXNativeTarget "MoviePlaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA4116141C322A0002DE17 /* Debug */,
+				B3EA4117141C322A0002DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3EA40D2141C32280002DE17 /* Project object */;
+}

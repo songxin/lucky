@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3D8A90A1437268A00378513 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D8A9091437268A00378513 /* Cocoa.framework */; };
+		B3D8A9141437268A00378513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3D8A9121437268A00378513 /* InfoPlist.strings */; };
+		B3D8A9171437268A00378513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8A9161437268A00378513 /* main.m */; };
+		B3D8A91A1437268A00378513 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3D8A9181437268A00378513 /* Credits.rtf */; };
+		B3D8A91D1437268A00378513 /* NetWorkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8A91C1437268A00378513 /* NetWorkAppDelegate.m */; };
+		B3D8A9201437268B00378513 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D8A91E1437268B00378513 /* MainMenu.xib */; };
+		B3D8A9271437268B00378513 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D8A9091437268A00378513 /* Cocoa.framework */; };
+		B3D8A92F1437268B00378513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3D8A92D1437268B00378513 /* InfoPlist.strings */; };
+		B3D8A9321437268C00378513 /* NetWorkTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3D8A9311437268C00378513 /* NetWorkTests.h */; };
+		B3D8A9341437268C00378513 /* NetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8A9331437268C00378513 /* NetWorkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D8A9281437268B00378513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D8A8FC1437268600378513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D8A9041437268A00378513;
+			remoteInfo = NetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3D8A9051437268A00378513 /* NetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D8A9091437268A00378513 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B3D8A90C1437268A00378513 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B3D8A90D1437268A00378513 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3D8A90E1437268A00378513 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3D8A9111437268A00378513 /* NetWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetWork-Info.plist"; sourceTree = "<group>"; };
+		B3D8A9131437268A00378513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3D8A9151437268A00378513 /* NetWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetWork-Prefix.pch"; sourceTree = "<group>"; };
+		B3D8A9161437268A00378513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3D8A9191437268A00378513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B3D8A91B1437268A00378513 /* NetWorkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkAppDelegate.h; sourceTree = "<group>"; };
+		B3D8A91C1437268A00378513 /* NetWorkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkAppDelegate.m; sourceTree = "<group>"; };
+		B3D8A91F1437268B00378513 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B3D8A9261437268B00378513 /* NetWorkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetWorkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D8A92C1437268B00378513 /* NetWorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetWorkTests-Info.plist"; sourceTree = "<group>"; };
+		B3D8A92E1437268B00378513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3D8A9301437268B00378513 /* NetWorkTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetWorkTests-Prefix.pch"; sourceTree = "<group>"; };
+		B3D8A9311437268C00378513 /* NetWorkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkTests.h; sourceTree = "<group>"; };
+		B3D8A9331437268C00378513 /* NetWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D8A9021437268A00378513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D8A90A1437268A00378513 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D8A9221437268B00378513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D8A9271437268B00378513 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3D8A8FA1437268500378513 = {
+			isa = PBXGroup;
+			children = (
+				B3D8A90F1437268A00378513 /* NetWork */,
+				B3D8A92A1437268B00378513 /* NetWorkTests */,
+				B3D8A9081437268A00378513 /* Frameworks */,
+				B3D8A9061437268A00378513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D8A9061437268A00378513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8A9051437268A00378513 /* NetWork.app */,
+				B3D8A9261437268B00378513 /* NetWorkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D8A9081437268A00378513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8A9091437268A00378513 /* Cocoa.framework */,
+				B3D8A90B1437268A00378513 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3D8A90B1437268A00378513 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8A90C1437268A00378513 /* AppKit.framework */,
+				B3D8A90D1437268A00378513 /* CoreData.framework */,
+				B3D8A90E1437268A00378513 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B3D8A90F1437268A00378513 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8A91B1437268A00378513 /* NetWorkAppDelegate.h */,
+				B3D8A91C1437268A00378513 /* NetWorkAppDelegate.m */,
+				B3D8A91E1437268B00378513 /* MainMenu.xib */,
+				B3D8A9101437268A00378513 /* Supporting Files */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		B3D8A9101437268A00378513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8A9111437268A00378513 /* NetWork-Info.plist */,
+				B3D8A9121437268A00378513 /* InfoPlist.strings */,
+				B3D8A9151437268A00378513 /* NetWork-Prefix.pch */,
+				B3D8A9161437268A00378513 /* main.m */,
+				B3D8A9181437268A00378513 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3D8A92A1437268B00378513 /* NetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8A9311437268C00378513 /* NetWorkTests.h */,
+				B3D8A9331437268C00378513 /* NetWorkTests.m */,
+				B3D8A92B1437268B00378513 /* Supporting Files */,
+			);
+			path = NetWorkTests;
+			sourceTree = "<group>";
+		};
+		B3D8A92B1437268B00378513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8A92C1437268B00378513 /* NetWorkTests-Info.plist */,
+				B3D8A92D1437268B00378513 /* InfoPlist.strings */,
+				B3D8A9301437268B00378513 /* NetWorkTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D8A9041437268A00378513 /* NetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D8A9371437268C00378513 /* Build configuration list for PBXNativeTarget "NetWork" */;
+			buildPhases = (
+				B3D8A9011437268A00378513 /* Sources */,
+				B3D8A9021437268A00378513 /* Frameworks */,
+				B3D8A9031437268A00378513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetWork;
+			productName = NetWork;
+			productReference = B3D8A9051437268A00378513 /* NetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3D8A9251437268B00378513 /* NetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D8A93A1437268C00378513 /* Build configuration list for PBXNativeTarget "NetWorkTests" */;
+			buildPhases = (
+				B3D8A9211437268B00378513 /* Sources */,
+				B3D8A9221437268B00378513 /* Frameworks */,
+				B3D8A9231437268B00378513 /* Resources */,
+				B3D8A9241437268B00378513 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D8A9291437268B00378513 /* PBXTargetDependency */,
+			);
+			name = NetWorkTests;
+			productName = NetWorkTests;
+			productReference = B3D8A9261437268B00378513 /* NetWorkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D8A8FC1437268600378513 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B3D8A8FF1437268600378513 /* Build configuration list for PBXProject "NetWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3D8A8FA1437268500378513;
+			productRefGroup = B3D8A9061437268A00378513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D8A9041437268A00378513 /* NetWork */,
+				B3D8A9251437268B00378513 /* NetWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D8A9031437268A00378513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D8A9141437268A00378513 /* InfoPlist.strings in Resources */,
+				B3D8A91A1437268A00378513 /* Credits.rtf in Resources */,
+				B3D8A9201437268B00378513 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D8A9231437268B00378513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D8A92F1437268B00378513 /* InfoPlist.strings in Resources */,
+				B3D8A9321437268C00378513 /* NetWorkTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3D8A9241437268B00378513 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D8A9011437268A00378513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D8A9171437268A00378513 /* main.m in Sources */,
+				B3D8A91D1437268A00378513 /* NetWorkAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D8A9211437268B00378513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D8A9341437268C00378513 /* NetWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D8A9291437268B00378513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D8A9041437268A00378513 /* NetWork */;
+			targetProxy = B3D8A9281437268B00378513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3D8A9121437268A00378513 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D8A9131437268A00378513 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3D8A9181437268A00378513 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D8A9191437268A00378513 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B3D8A91E1437268B00378513 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D8A91F1437268B00378513 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B3D8A92D1437268B00378513 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D8A92E1437268B00378513 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D8A9351437268C00378513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3D8A9361437268C00378513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3D8A9381437268C00378513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetWork/NetWork-Prefix.pch";
+				INFOPLIST_FILE = "NetWork/NetWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3D8A9391437268C00378513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetWork/NetWork-Prefix.pch";
+				INFOPLIST_FILE = "NetWork/NetWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3D8A93B1437268C00378513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetWork.app/Contents/MacOS/NetWork";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetWorkTests/NetWorkTests-Prefix.pch";
+				INFOPLIST_FILE = "NetWorkTests/NetWorkTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3D8A93C1437268C00378513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetWork.app/Contents/MacOS/NetWork";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetWorkTests/NetWorkTests-Prefix.pch";
+				INFOPLIST_FILE = "NetWorkTests/NetWorkTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D8A8FF1437268600378513 /* Build configuration list for PBXProject "NetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D8A9351437268C00378513 /* Debug */,
+				B3D8A9361437268C00378513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D8A9371437268C00378513 /* Build configuration list for PBXNativeTarget "NetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D8A9381437268C00378513 /* Debug */,
+				B3D8A9391437268C00378513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D8A93A1437268C00378513 /* Build configuration list for PBXNativeTarget "NetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D8A93B1437268C00378513 /* Debug */,
+				B3D8A93C1437268C00378513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D8A8FC1437268600378513 /* Project object */;
+}
