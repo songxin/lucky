@@ -46,4 +46,13 @@ objectValueForTableColumn:(NSTableColumn *)tableColumn
     return [strList objectAtIndex:row];
 }
 
+
+- (void)tableView:(NSTabView*)tv
+   setObjectValue:(id)object
+   forTableColumn:(NSTableColumn *)tableColumn
+              row:(NSInteger)row {
+    
+    NSString *string = [tableView stringValue];
+    [strList replaceObjectAtIndex:row withObject:string];
+}
 @end
