@@ -11,8 +11,15 @@
 @interface ListAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    NSTextField *textField;
+    NSTableView *tableView;
+    NSMutableArray *strList;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, retain) IBOutlet NSTextField *textField;
+@property (nonatomic, retain) IBOutlet NSTableView *tableView;
+@property (nonatomic, retain) NSMutableArray *strList;
 
+- (IBAction)addString:(id)sender;
 @end
