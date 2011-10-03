@@ -1,0 +1,265 @@
+TControl Fun
+v7
+r0
+t329890404.572943
+cCheck dependencies
+cProcessInfoPlistFile "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Info.plist" Control_Fun-Info.plist
+cCompileXIB "/Users/xushiwei/Documents/lucky/Control Fun/MainWindow.xib"
+cCompileXIB "/Users/xushiwei/Documents/lucky/Control Fun/Control_FunViewController.xib"
+cCpResource "build/Debug-iphonesimulator/Control Fun.app/view.png" view.png
+cProcessPCH /var/folders/bY/bYjQFye6HkaqQ9AEKIYmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Control_Fun_Prefix-fhwqbtjffqzextcbulatcpravvrg/Control_Fun_Prefix.pch.gch Control_Fun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/main.o" "/Users/xushiwei/Documents/lucky/Control Fun/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunAppDelegate.o" "/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunViewController.o" "/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun" normal i386
+cGenerateDSYMFile "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app.dSYM" "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun"
+cTouch "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunAppDelegate.h
+c000000004DF2C28800000000000001F3
+t1307755144
+s499
+i<UIKit/UIKit.h>
+
+N/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunAppDelegate.m
+c000000004DF2C2880000000000000ABA
+t1307755144
+s2746
+i"Control_FunAppDelegate.h"
+i"Control_FunViewController.h"
+
+N/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunViewController.h
+c000000004DF37C8E000000000000042A
+t1307802766
+s1066
+i<UIKit/UIKit.h>
+
+N/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunViewController.m
+c000000004DF37CC90000000000000B16
+t1307802825
+s2838
+i"Control_FunViewController.h"
+
+N/Users/xushiwei/Documents/lucky/Control Fun/Control_FunViewController.xib
+c000000004DF30163000000000000A933
+t1307771235
+s43315
+
+N/Users/xushiwei/Documents/lucky/Control Fun/Control_Fun_Prefix.pch
+c000000004DF2C28800000000000000BF
+t1307755144
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/xushiwei/Documents/lucky/Control Fun/MainWindow.xib
+c000000004DF2C2880000000000004E59
+t1307755144
+s20057
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control Fun.LinkFileList
+c000000004DF982E000000000000001BC
+t1308197600
+s444
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunAppDelegate.o
+t1308197603
+s51812
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunViewController.o
+t1308197604
+s64156
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/main.o
+t1308197603
+s6320
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app
+t1308197604
+s272
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app.dSYM
+t1308197604
+s102
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun
+t1308197604
+s25388
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control_FunViewController.nib
+t1308197602
+s7468
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Info.plist
+t1308197600
+s607
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/MainWindow.nib
+t1308197601
+s1689
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/PkgInfo
+t1308197600
+s8
+
+N/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/view.png
+t1308197601
+s3999
+
+N/Users/xushiwei/Documents/lucky/Control Fun/main.m
+c000000004DF2C2880000000000000169
+t1307755144
+s361
+i<UIKit/UIKit.h>
+
+N/Users/xushiwei/Documents/lucky/Control Fun/view.png
+c000000004DF2C87D0000000000000F9F
+t1307756669
+s3999
+
+N/var/folders/bY/bYjQFye6HkaqQ9AEKIYmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Control_Fun_Prefix-fhwqbtjffqzextcbulatcpravvrg/Control_Fun_Prefix.pch.gch
+t1307763813
+s15814064
+
+NControl_Fun-Info.plist
+c000000004DF2C288000000000000038D
+t1307755144
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329890400#329890400#0(0"0(0#1#0"8624788320#0"0#
+
+CCompileC "build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunAppDelegate.o" "/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s329890402.370449
+e329890403.962946
+r1
+xCompileC
+xbuild/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunAppDelegate.o
+x/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunAppDelegate.m329890402#329890403#0(0"0(0#0#76"/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunAppDelegate.m8594829152#2115"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-generated-files.hmap" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-own-target-headers.hmap" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-all-target-headers.hmap" -iquote "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-project-headers.hmap" "-F/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/include" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/DerivedSources/i386" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/DerivedSources" -include /var/folders/bY/bYjQFye6HkaqQ9AEKIYmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Control_Fun_Prefix-fhwqbtjffqzextcbulatcpravvrg/Control_Fun_Prefix.pch -c "/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunAppDelegate.m" -o "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunAppDelegate.o"0#
+
+CCompileC "build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunViewController.o" "/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s329890403.945061
+e329890404.047851
+r1
+xCompileC
+xbuild/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunViewController.o
+x/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunViewController.m329890403#329890404#0(0"0(0#0#79"/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunViewController.m8620699232#2121"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-generated-files.hmap" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-own-target-headers.hmap" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-all-target-headers.hmap" -iquote "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-project-headers.hmap" "-F/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/include" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/DerivedSources/i386" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/DerivedSources" -include /var/folders/bY/bYjQFye6HkaqQ9AEKIYmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Control_Fun_Prefix-fhwqbtjffqzextcbulatcpravvrg/Control_Fun_Prefix.pch -c "/Users/xushiwei/Documents/lucky/Control Fun/Classes/Control_FunViewController.m" -o "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control_FunViewController.o"0#
+
+CCompileC "build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/main.o" "/Users/xushiwei/Documents/lucky/Control Fun/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s329890402.368272
+e329890403.944900
+r1
+xCompileC
+xbuild/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/main.o
+x/Users/xushiwei/Documents/lucky/Control Fun/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/xushiwei/Documents/lucky/Control Fun/main.m329890402#329890403#0(0"0(0#0#50"/Users/xushiwei/Documents/lucky/Control Fun/main.m8619500768#2071"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-generated-files.hmap" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-own-target-headers.hmap" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-all-target-headers.hmap" -iquote "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Control Fun-project-headers.hmap" "-F/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/include" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/DerivedSources/i386" "-I/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/DerivedSources" -include /var/folders/bY/bYjQFye6HkaqQ9AEKIYmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Control_Fun_Prefix-fhwqbtjffqzextcbulatcpravvrg/Control_Fun_Prefix.pch -c "/Users/xushiwei/Documents/lucky/Control Fun/main.m" -o "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/xushiwei/Documents/lucky/Control Fun/Control_FunViewController.xib"
+s329890401.033717
+e329890402.347984
+r1
+xCompileXIB
+x/Users/xushiwei/Documents/lucky/Control Fun/Control_FunViewController.xib
+lSLF07#2@40"CompileXIB Control_FunViewController.xib329890401#329890402#0(0"0(0#0#73"/Users/xushiwei/Documents/lucky/Control Fun/Control_FunViewController.xib8609139744#625"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control_FunViewController.nib" "/Users/xushiwei/Documents/lucky/Control Fun/Control_FunViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/xushiwei/Documents/lucky/Control Fun/MainWindow.xib"
+s329890400.963418
+e329890401.742745
+r1
+xCompileXIB
+x/Users/xushiwei/Documents/lucky/Control Fun/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329890400#329890401#0(0"0(0#0#58"/Users/xushiwei/Documents/lucky/Control Fun/MainWindow.xib8610163808#595"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/MainWindow.nib" "/Users/xushiwei/Documents/lucky/Control Fun/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource "build/Debug-iphonesimulator/Control Fun.app/view.png" view.png
+s329890401.742839
+e329890401.823982
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Control Fun.app/view.png
+xview.png
+lSLF07#2@13"Copy view.png329890401#329890401#0(0"0(0#0#52"/Users/xushiwei/Documents/lucky/Control Fun/view.png8625222560#491"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/xushiwei/Documents/lucky/Control Fun/view.png" "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app"0#
+
+CGenerateDSYMFile "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app.dSYM" "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun"
+s329890404.492183
+e329890404.552454
+r1
+xGenerateDSYMFile
+x/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app.dSYM
+x/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun
+lSLF07#2@125"GenerateDSYMFile "build/Debug-iphonesimulator/Control Fun.app.dSYM" "build/Debug-iphonesimulator/Control Fun.app/Control Fun"329890404#329890404#0(0"0(0#0#99"/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun8621569728#416"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun" -o "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app.dSYM"0#
+
+CLd "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun" normal i386
+s329890404.047952
+e329890404.492065
+r1
+xLd
+x/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun
+xnormal
+xi386
+lSLF07#2@104"Link /Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun329890404#329890404#0(0"0(0#0#0"8613871776#955"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator" "-F/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator" -filelist "/Users/xushiwei/Documents/lucky/Control Fun/build/Control Fun.build/Debug-iphonesimulator/Control Fun.build/Objects-normal/i386/Control Fun.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Control Fun"0#
+
+CProcessInfoPlistFile "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Info.plist" Control_Fun-Info.plist
+s329890400.798944
+e329890400.963320
+r1
+xProcessInfoPlistFile
+x/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Info.plist
+xControl_Fun-Info.plist
+lSLF07#2@30"Process Control_Fun-Info.plist329890400#329890400#0(0"0(0#0#66"/Users/xushiwei/Documents/lucky/Control Fun/Control_Fun-Info.plist8619515424#512"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Control_Fun-Info.plist -genpkginfo "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app/Info.plist"0#
+
+CProcessPCH /var/folders/bY/bYjQFye6HkaqQ9AEKIYmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Control_Fun_Prefix-fhwqbtjffqzextcbulatcpravvrg/Control_Fun_Prefix.pch.gch Control_Fun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app"
+s329890404.552542
+e329890404.572898
+r1
+xTouch
+x/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app
+lSLF07#2@93"Touch /Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app329890404#329890404#0(0"0(0#0#0"8618966944#296"    cd "/Users/xushiwei/Documents/lucky/Control Fun"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/xushiwei/Documents/lucky/Control Fun/build/Debug-iphonesimulator/Control Fun.app"0#
+
