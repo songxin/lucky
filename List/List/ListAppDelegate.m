@@ -55,4 +55,11 @@ objectValueForTableColumn:(NSTableColumn *)tableColumn
     NSString *string = [tableView stringValue];
     [strList replaceObjectAtIndex:row withObject:string];
 }
+
+- (void)tableView:(NSTableView*)tv
+sortDescriptorsDidChange:(NSArray *)oldDescriptors {
+    NSArray *newDescriptors = [tableView sortDescriptors];
+    [strList sortUsingDescriptors:newDescriptors];
+    [tableView reloadData];
+}
 @end
